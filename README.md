@@ -51,4 +51,5 @@ Welcome to the **Scrapy Mastery Roadmap**! This repository offers a step-by-step
     
     Each project is organized in its own folder. Simply navigate to the desired project folder, review the README, and follow the setup instructions.
 
-    For a full project-by-project breakdown, see DETAILED_DESCRIPTIONS.md.  
+    For a full project-by-project breakdown, see [DETAILED_DESCRIPTIONS.md](DETAILED_DESCRIPTIONS.md).
+ 
