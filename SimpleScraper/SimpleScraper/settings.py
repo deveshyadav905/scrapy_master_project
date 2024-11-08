@@ -1,4 +1,4 @@
-# Scrapy settings for webscrap project
+# Scrapy settings for SimpleScraper project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = "webscrap"
+BOT_NAME = "SimpleScraper"
 
-SPIDER_MODULES = ["webscrap.spiders"]
-NEWSPIDER_MODULE = "webscrap.spiders"
+SPIDER_MODULES = ["SimpleScraper.spiders"]
+NEWSPIDER_MODULE = "SimpleScraper.spiders"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = "webscrap (+http://www.yourdomain.com)"
+#USER_AGENT = "SimpleScraper (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -45,13 +45,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    "webscrap.middlewares.WebscrapSpiderMiddleware": 543,
+#    "SimpleScraper.middlewares.SimplescraperSpiderMiddleware": 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    "webscrap.middlewares.WebscrapDownloaderMiddleware": 543,
+#    "SimpleScraper.middlewares.SimplescraperDownloaderMiddleware": 543,
 #}
 
 # Enable or disable extensions
@@ -62,9 +62,9 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-ITEM_PIPELINES = {
-   "webscrap.pipelines.WebscrapPipeline": 300,
-}
+#ITEM_PIPELINES = {
+#    "SimpleScraper.pipelines.SimplescraperPipeline": 300,
+#}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html

@@ -7,14 +7,7 @@
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
 
-class TableScrapSpider:
-    def process_item(self, item, spider):
-        import pandas as pd
-        df = pd.DataFrame()
-        for keys in item.keys():
-            df[keys]=item[keys]
-        df.to_csv("domains_data.csv")
-        return item
-class WebscrapPipeline:
+
+class SimplescraperPipeline:
     def process_item(self, item, spider):
         return item
