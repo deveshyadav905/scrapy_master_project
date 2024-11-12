@@ -1,5 +1,15 @@
 import scrapy
 
+# TO RUN CRAWLING EXECUTE ONE OF THE FOLLOWING COMMANDS:
+# 1. Run the spider and output to the console:
+#    scrapy crawl quotes
+#
+# 2. Run the spider and save output to a JSON file:
+#    scrapy crawl quotes -o quotes.json
+#
+# 3. Run the spider and save output to a CSV file:
+#    scrapy crawl quotes -o quotes.csv
+
 class QuotesSpider(scrapy.Spider):
     # Name of the spider, used to run the spider with "scrapy crawl quotes"
     name = "quotes"
