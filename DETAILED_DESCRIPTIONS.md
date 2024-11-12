@@ -4,17 +4,22 @@
    - **Goal**: Set up a basic Scrapy spider to scrape data and export it in a simple format.
    - **Implementation**:
      - Create a basic Scrapy project and a simple spider.
-     - Configure settings to export scraped data to JSON and CSV formats.
-     - Run and test the spider on a basic site.
-   - **Key Skills**: Spider setup, data export, basic configuration.
-
-### 2. MultiPageNavigator
-   - **Goal**: Learn how to scrape data from multiple pages of a website.
-   - **Implementation**:
      - Handle pagination to navigate through pages.
      - Use Scrapy’s response-following functions to go through paginated links.
      - Collect data from multiple pages.
-   - **Key Skills**: Pagination handling, response following, data extraction.
+     - Configure settings to export scraped data to JSON and CSV formats.
+     - Run and test the spider on a basic site.
+   - **Key Skills**: Spider setup, data export, basic configuration,Pagination handling, response following, data extraction.
+   
+### 2. DatabaseConnection
+   - **Goal**: Connect to different databases (e.g., MySQL, MongoDB) and store scraped data.
+   - **Implementation**:
+     - Set up database connections using Scrapy item pipelines.
+     - Integrate MySQL and MongoDB for storing scraped data.
+     - Implement data insertion logic and schema management.
+     - Handle error logging and database connection management. 
+     - Collect data from multiple pages.
+   - **Key Skills**: Database integration, item pipelines, MySQL, MongoDB, error handling.
 
 ### 3. DataCleaner
    - **Goal**: Use Scrapy’s pipelines to clean and structure data before exporting.
