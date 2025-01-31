@@ -1,17 +1,22 @@
 # Project Descriptions
 
-### 1. SimpleScraper
-   - **Goal**: Set up a basic Scrapy spider to scrape data and export it in a simple format.
+### 1. ComprehensiveScraper: Simple to Advanced
+   - **Goal**: Build a Scrapy project that includes a simple spider for basic scraping tasks and a more advanced spider for handling pagination and exporting data.
+
    - **Implementation**:
-     - Create a basic Scrapy project and a simple spider.
-     - Handle pagination to navigate through pages.
-     - Use Scrapy’s response-following functions to go through paginated links.
-     - Collect data from multiple pages.
-     - Configure settings to export scraped data to JSON and CSV formats.
+    - **Simple Spider**:
+      - Create a basic Scrapy project and a simple spider.
+      - Export the data in JSON or CSV format.
+      - Test the spider on a basic site to ensure functionality.
+    - **Advanced Spider**:
+      - Handle pagination to navigate through pages.
+      - Use Scrapy’s response-following functions to go through paginated links.
+      - Collect data from multiple pages.
+      - Configure settings to export scraped data to JSON and CSV formats.
      - Run and test the spider on a basic site.
    - **Key Skills**: Spider setup, data export, basic configuration,Pagination handling, response following, data extraction.
    
-### 2. DatabaseConnection
+### 2. ScrapyDatabaseIntegration
    - **Goal**: Connect to different databases (e.g., MySQL, MongoDB) and store scraped data.
    - **Implementation**:
      - Set up database connections using Scrapy item pipelines.

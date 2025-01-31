@@ -8,8 +8,8 @@ Welcome to the **Scrapy Mastery Roadmap**! This repository offers a step-by-step
 
 | Project Number | Project Name                | Description                                                      |
 |----------------|-----------------------------|------------------------------------------------------------------|
-| 1              | [SimpleScraper](DETAILED_DESCRIPTIONS.md#1-simplescraper)               | Basic spider setup, JSON/CSV data export.                        |
-| 2              | [MultiPageNavigator](DETAILED_DESCRIPTIONS.md#2-multipagenavigator)     | Scraping data across paginated pages.                            |
+| 1              | [ComprehensiveScraper](DETAILED_DESCRIPTIONS.md#1-ComprehensiveScraper)         | Basic spider setup, JSON/CSV data export, pagination, and multi-page navigation.      |
+| 2              | [ScrapyDatabaseIntegration](DETAILED_DESCRIPTIONS.md#2-ScrapyDatabaseIntegration)| Set up database connections, store multi-page scraped data, and manage pipelines. |
 | 3              | [DataCleaner](DETAILED_DESCRIPTIONS.md#3-datacleaner)                   | Cleaning and structuring data with item pipelines.               |
 | 4              | [DynamicScraper](DETAILED_DESCRIPTIONS.md#4-dynamicscraper)             | Handling JavaScript with Splash/Selenium.                        |
 | 5              | [LoginBot](DETAILED_DESCRIPTIONS.md#5-loginbot)                         | Managing user authentication and session data.                   |
